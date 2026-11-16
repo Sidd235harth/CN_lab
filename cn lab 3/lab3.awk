@@ -2,7 +2,7 @@
 # Column 1 ($1) = Simulation Time
 # Column 6 ($6) = Parameter name ("cwnd_")
 # Column 7 ($7) = Congestion Window value
-BEGIN{
+{
     if ($6 == "cwnd_") {
         printf("%f \t %f\n", $1, $7);
     }
