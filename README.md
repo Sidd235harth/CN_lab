@@ -50,3 +50,9 @@ xgraph -x "Time (s)" -y "Congestion Window (cwnd)" tcp0 tcp1
 ```
 
 ---
+## Program 4 & 5:
+### Run
+```bash
+javac fileName.java
+java fileName
+```
